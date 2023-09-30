@@ -1,10 +1,11 @@
 # ecommerce-project-mohammeddabour
 
+
 ## Project setup
 ```
 npm install
 ```
-
+npm i pinia vuetify @mdi/font
 ### Compiles and hot-reloads for development
 ```
 npm run serve
