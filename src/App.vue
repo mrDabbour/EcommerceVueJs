@@ -1,10 +1,23 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view />
+  <div>
+    <app-layout></app-layout>
+    <nav>
+      <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link>
+    </nav>
+    <router-view />
+  </div>
 </template>
+
+<script>
+import AppLayout from "./components/AppLayout.vue";
+
+export default {
+  components: {
+    AppLayout,
+  },
+};
+</script>
 
 <style lang="scss">
 #app {

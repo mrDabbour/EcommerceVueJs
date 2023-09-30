@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
+import process from 'process';
 import HomeView from "../views/HomeView.vue";
 
 const routes = [
