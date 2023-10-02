@@ -2,9 +2,9 @@
 # Step number One
 ====> in the Components folder
  -- create AppLayout 
- -- create AppNav
- -- create AppFooter
- -- create CartDrawer 
+    - create AppNav
+    - create AppFooter
+    - create CartDrawer 
 
 
 
